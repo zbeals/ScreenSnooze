@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A31F07625F7F49200A8C549 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A31F07525F7F49200A8C549 /* Goals.swift */; };
+		5A31F07B25F7F8CF00A8C549 /* GoalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A31F07A25F7F8CF00A8C549 /* GoalStore.swift */; };
 		5A8AB18D25F7F0F900B61F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB18C25F7F0F900B61F1E /* AppDelegate.swift */; };
 		5A8AB18F25F7F0F900B61F1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB18E25F7F0F900B61F1E /* SceneDelegate.swift */; };
-		5A8AB19125F7F0F900B61F1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB19025F7F0F900B61F1E /* ViewController.swift */; };
 		5A8AB19425F7F0F900B61F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8AB19225F7F0F900B61F1E /* Main.storyboard */; };
 		5A8AB19625F7F0FA00B61F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8AB19525F7F0FA00B61F1E /* Assets.xcassets */; };
 		5A8AB19925F7F0FA00B61F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8AB19725F7F0FA00B61F1E /* LaunchScreen.storyboard */; };
 		5A8AB1A425F7F0FA00B61F1E /* ScreenSnoozeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB1A325F7F0FA00B61F1E /* ScreenSnoozeTests.swift */; };
 		5A8AB1AF25F7F0FA00B61F1E /* ScreenSnoozeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB1AE25F7F0FA00B61F1E /* ScreenSnoozeUITests.swift */; };
+		5A8AB1C025F7F1C300B61F1E /* GoalsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8AB1BF25F7F1C300B61F1E /* GoalsController.swift */; };
+		5ACBE26825FAA0D6004FA6B3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACBE26725FAA0D6004FA6B3 /* DetailViewController.swift */; };
+		5AFD08E125FA970F002A9508 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFD08E025FA970F002A9508 /* GoalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A31F07525F7F49200A8C549 /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		5A31F07A25F7F8CF00A8C549 /* GoalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalStore.swift; sourceTree = "<group>"; };
 		5A8AB18925F7F0F900B61F1E /* ScreenSnooze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSnooze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8AB18C25F7F0F900B61F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A8AB18E25F7F0F900B61F1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A8AB19025F7F0F900B61F1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A8AB19325F7F0F900B61F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A8AB19525F7F0FA00B61F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A8AB19825F7F0FA00B61F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		5A8AB1AA25F7F0FA00B61F1E /* ScreenSnoozeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSnoozeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8AB1AE25F7F0FA00B61F1E /* ScreenSnoozeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSnoozeUITests.swift; sourceTree = "<group>"; };
 		5A8AB1B025F7F0FA00B61F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8AB1BF25F7F1C300B61F1E /* GoalsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsController.swift; sourceTree = "<group>"; };
+		5ACBE26725FAA0D6004FA6B3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5AFD08E025FA970F002A9508 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		5A8AB18025F7F0F900B61F1E = {
 			isa = PBXGroup;
 			children = (
+				5ACBE26725FAA0D6004FA6B3 /* DetailViewController.swift */,
 				5A8AB18B25F7F0F900B61F1E /* ScreenSnooze */,
 				5A8AB1A225F7F0FA00B61F1E /* ScreenSnoozeTests */,
 				5A8AB1AD25F7F0FA00B61F1E /* ScreenSnoozeUITests */,
@@ -99,9 +108,12 @@
 		5A8AB18B25F7F0F900B61F1E /* ScreenSnooze */ = {
 			isa = PBXGroup;
 			children = (
+				5A8AB1BF25F7F1C300B61F1E /* GoalsController.swift */,
+				5A31F07525F7F49200A8C549 /* Goals.swift */,
+				5A31F07A25F7F8CF00A8C549 /* GoalStore.swift */,
 				5A8AB18C25F7F0F900B61F1E /* AppDelegate.swift */,
 				5A8AB18E25F7F0F900B61F1E /* SceneDelegate.swift */,
-				5A8AB19025F7F0F900B61F1E /* ViewController.swift */,
+				5AFD08E025FA970F002A9508 /* GoalCell.swift */,
 				5A8AB19225F7F0F900B61F1E /* Main.storyboard */,
 				5A8AB19525F7F0FA00B61F1E /* Assets.xcassets */,
 				5A8AB19725F7F0FA00B61F1E /* LaunchScreen.storyboard */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8AB19125F7F0F900B61F1E /* ViewController.swift in Sources */,
+				5A31F07625F7F49200A8C549 /* Goals.swift in Sources */,
 				5A8AB18D25F7F0F900B61F1E /* AppDelegate.swift in Sources */,
+				5AFD08E125FA970F002A9508 /* GoalCell.swift in Sources */,
+				5A31F07B25F7F8CF00A8C549 /* GoalStore.swift in Sources */,
+				5A8AB1C025F7F1C300B61F1E /* GoalsController.swift in Sources */,
 				5A8AB18F25F7F0F900B61F1E /* SceneDelegate.swift in Sources */,
+				5ACBE26825FAA0D6004FA6B3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,14 +452,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = J5356ZUHYV;
 				INFOPLIST_FILE = ScreenSnooze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = skidmorecs.mobile.ScreenSnooze;
+				PRODUCT_BUNDLE_IDENTIFIER = skidmorecs.mobile.ScreenSnooze1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "First Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,14 +473,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = J5356ZUHYV;
 				INFOPLIST_FILE = ScreenSnooze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = skidmorecs.mobile.ScreenSnooze;
+				PRODUCT_BUNDLE_IDENTIFIER = skidmorecs.mobile.ScreenSnooze1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "First Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
